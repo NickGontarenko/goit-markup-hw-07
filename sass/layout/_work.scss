@@ -4,12 +4,13 @@
   .work-section {
     padding-top: 0;
   }
-  .work-item:not(:nth-child(3n)) {
-    margin-right: 30px;
-  }
+ 
   
   .work-item {
     position: relative;
+    &:not(:nth-child(3n)) {
+      margin-right: 30px;
+    }
   }
   
   .work-text {
