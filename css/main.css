@@ -1,3 +1,27 @@
+:root {
+  --primery-color-tittle: #212121;
+  --secondary-color-text: #757575;
+  --primery-white-color: #fff;
+  --accent-color: #2196f3;
+  --secondary-bg-color: #f5f4fa;
+  --icon-color: #afb1b8;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
@@ -59,7 +83,7 @@ ul {
   padding-bottom: 94px;
 }
 
-.section-tittle {
+.section__tittle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -378,7 +402,7 @@ ul {
   height: 11px;
 }
 
-.hero-btn {
+.hero__btn {
   display: block;
   font-family: inherit;
   font-weight: 700;
@@ -395,7 +419,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188ce8;
 }
 
@@ -473,15 +497,15 @@ address {
   align-items: center;
 }
 
-.header-logo {
+.header__logo {
   margin-right: 93px;
 }
 
-.header-navi {
+.header-nav {
   display: flex;
 }
 
-.header-list {
+.header-nav__list {
   display: flex;
 }
 
@@ -576,7 +600,7 @@ address {
   padding-bottom: 200px;
 }
 
-.hero-tittle {
+.hero__tittle {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -589,7 +613,7 @@ address {
   margin-bottom: 30px;
 }
 
-.features {
+.features__list {
   display: flex;
   justify-content: space-between;
 }
@@ -605,44 +629,44 @@ address {
   margin-bottom: 30px;
 }
 
-.features-icon-item {
+.features-icon__item {
   width: 70px;
   height: 70px;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 }
 
-.features-tittle {
+.features__tittle {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--primery-color-tittle);
   margin-bottom: 10px;
 }
 
-.features-text {
+.features__text {
   line-height: 1.71;
   color: var(--secondary-color-text);
 }
 
 .work {
-  display: flex;
-}
-
-.work-section {
   padding-top: 0;
 }
 
-.work-item {
+.work-list {
+  display: flex;
+}
+
+.work-list__item {
   position: relative;
 }
 
-.work-item:not(:nth-child(3n)) {
+.work-list__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.work-text {
+.work-list__text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -659,11 +683,11 @@ address {
 }
 
 .team {
-  display: flex;
+  background-color: var(--secondary-bg-color);
 }
 
-.team-bg {
-  background-color: var(--secondary-bg-color);
+.team-list {
+  display: flex;
 }
 
 .team-description {
@@ -702,16 +726,16 @@ address {
   display: flex;
 }
 
-.clients-item {
+.clients-list__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -722,19 +746,19 @@ address {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-icon {
+.clients-list__icon {
   width: 106px;
   height: 60px;
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
   fill: var(--accent-color);
 }
 
@@ -824,29 +848,5 @@ address {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
-
-:root {
-  --primery-color-tittle: #212121;
-  --secondary-color-text: #757575;
-  --primery-white-color: #fff;
-  --accent-color: #2196f3;
-  --secondary-bg-color: #f5f4fa;
-  --icon-color: #afb1b8;
-}
-
-.current {
-  color: var(--accent-color);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
 }
 /*# sourceMappingURL=main.css.map */

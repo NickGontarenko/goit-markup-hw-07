@@ -1,3 +1,5 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
 @import './base/common';
 @import './base/reset';
 @import './components/logo';
@@ -10,7 +12,7 @@
 @import './components/backdrop';
 @import './components/modal';
 @import './components/btn-close';
-@import './components/hero-btn';
+@import './components/hero__btn';
 @import './layout/footer';
 @import './layout/header';
 @import './layout/hero';
@@ -20,5 +22,3 @@
 @import './layout/clients';
 @import './layout/filter';
 @import './layout/portfolio';
-@import './utils/variables';
-@import './utils/visually-hidden';

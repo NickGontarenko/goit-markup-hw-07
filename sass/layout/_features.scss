@@ -1,5 +1,5 @@
 
-.features {
+.features__list {
     display: flex;
     justify-content: space-between;
   }
@@ -14,22 +14,22 @@
     margin-bottom: 30px;
   }
   
-  .features-icon-item {
+  .features-icon__item {
     width: 70px;
     height: 70px;
   }
-  .features-item {
+  .features__item {
     width: 270px;
   }
   
-  .features-tittle {
+  .features__tittle {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--primery-color-tittle);
     margin-bottom: 10px;
   }
   
-  .features-text {
+  .features__text {
     line-height: 1.71;
     color: var(--secondary-color-text);
   }
