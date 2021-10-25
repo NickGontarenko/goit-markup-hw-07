@@ -1,21 +1,21 @@
-.work {
+.section__work {
   padding-top: 0;
 }
 
 
-.work-list {
+.work {
     display: flex;
   }
  
   
-  .work-list__item {
+  .work__item {
     position: relative;
     &:not(:nth-child(3n)) {
       margin-right: 30px;
     }
   }
   
-  .work-list__text {
+  .work__text {
     display: flex;
     justify-content: center;
     align-items: center;

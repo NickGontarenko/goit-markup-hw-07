@@ -1,9 +1,9 @@
 
-.features__list {
+.features {
     display: flex;
     justify-content: space-between;
   }
-  .features-icon {
+  .features__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     margin-bottom: 30px;
   }
   
-  .features-icon__item {
+  .features__icon {
     width: 70px;
     height: 70px;
   }

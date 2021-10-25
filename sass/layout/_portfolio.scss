@@ -11,10 +11,7 @@
         1px 4px 6px rgba(0, 0, 0, 0.16);
       outline: none;
     }
-    &:hover .portfolio-hidden-text,
-    &:focus .portfolio-hidden-text {
-      transform: translateY(0);
-    }
+    
   }
   
   .portfolio-tittle {
@@ -57,6 +54,10 @@
     color: var(--primery-white-color);
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .portfolio-link:hover &,
+    .portfolio-link:focus & {
+      transform: translateY(0);
+    }
   }
   
   .portfolio-text {
